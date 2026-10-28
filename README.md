@@ -26,3 +26,4 @@ Gradle build, automated tests, Docker image
 creation and image verification.
 
 Jenkins automatically checks the main branch for new commits.
+SCM polling verification completed.
