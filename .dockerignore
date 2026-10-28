@@ -1,0 +1,25 @@
+# Git and IDE files
+.git
+.gradle
+.idea
+*.iml
+
+# Build output
+build
+**/build
+
+# Logs and backups
+logs
+backups
+*.log
+Temirbek_Dastan_log_analysis.txt
+
+# Environment and secrets
+.env
+.env.*
+**/.env
+**/.env.*
+*.pem
+*.key
+*.p12
+*.jks
