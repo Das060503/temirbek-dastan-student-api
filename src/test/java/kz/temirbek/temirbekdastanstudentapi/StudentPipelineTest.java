@@ -12,6 +12,6 @@ class StudentPipelineTest {
         student.setFirstName("Dastan");
 
         // Intentional failure for Jenkins demonstration
-        assertEquals("Temirbek", student.getFirstName());
+        assertEquals("Dastan", student.getFirstName());
     }
 }
