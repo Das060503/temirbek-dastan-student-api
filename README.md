@@ -18,3 +18,9 @@ The API supports filtering students by group code.
 - GET /api/students?groupCode=IT2-2308 - filter by group
 
 Group search is case-insensitive.
+
+## Jenkins CI/CD
+
+The Jenkins pipeline performs source checkout,
+Gradle build, automated tests, Docker image
+creation and image verification.
