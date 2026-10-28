@@ -1,4 +1,4 @@
-# Temirbek Dastan Student API
+# Dastan Temirbek Student API - Spring Boot CRUD
 
 Student: Dastan Temirbek
 Group: IT2-2308
