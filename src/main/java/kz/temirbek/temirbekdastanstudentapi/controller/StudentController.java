@@ -34,7 +34,11 @@ public class StudentController {
 
     // READ ALL
     @GetMapping
-    public List<Student> getAllStudents() {
+    public List<Student> getAllStudents(
+            @RequestParam(required = false) String groupCode) {
+        if (groupCode != null && !groupCode.isBlank()) {
+            return studentService.getStudentsByGroupCode(groupCode);
+        }
         return studentService.getAllStudents();
     }
 
