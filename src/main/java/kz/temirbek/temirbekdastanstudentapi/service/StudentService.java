@@ -25,6 +25,10 @@ public class StudentService {
     }
 
     // READ - Get all students
+    public List<Student> getStudentsByGroupCode(String groupCode) {
+        return studentRepository.findByGroupCodeIgnoreCase(groupCode);
+    }
+
     public List<Student> getAllStudents() {
         return studentRepository.findAll();
     }
